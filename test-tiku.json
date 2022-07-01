@@ -1,0 +1,171 @@
+[{
+        "question": "你认为自己喜欢或掌握哪项计算机技能？",
+        "option": [{
+                "text": "敲代码，算法优化",
+                "action": "goto",
+                "target": 1
+            },
+            {
+                "text": "PS、Pr、CG制作",
+                "action": "goto",
+                "target": 4
+            },
+            {
+                "text": "项目创意设计",
+                "action": "goto",
+                "target": 6
+            },
+            {
+                "text": "产品宣传、文案编写",
+                "action": "goto",
+                "target": 8
+            }
+        ]
+    },
+    {
+        "question": "你是否已经具有一定的编程基础",
+        "option": [{
+                "text": "是",
+                "action": "goto",
+                "target": 2
+            },
+            {
+                "text": "否",
+                "action": "goto",
+                "target": 9
+            }
+        ]
+    },
+    {
+        "question": "你是否对与缺德人士斗智斗勇感兴趣",
+        "option": [{
+                "text": "是",
+                "action": "answer",
+                "target": "运维"
+            },
+            {
+                "text": "否",
+                "action": "goto",
+                "target": 3
+            }
+        ]
+    },
+    {
+        "question": "你对小程序或网页开放有兴趣吗",
+        "option": [{
+                "text": "是",
+                "action": "answer",
+                "target": "软件"
+            },
+            {
+                "text": "否,但我有界面设计的能力",
+                "action": "goto",
+                "target": 4
+            },
+            {
+                "text": "否,但我会有对其具体功能的想象",
+                "action": "goto",
+                "target": 6
+            }
+        ]
+    },
+    {
+        "question": "你是否已经具备Photoshop的基本操作能力",
+        "option": [{
+                "text": "是",
+                "action": "goto",
+                "target": 5
+            },
+            {
+                "text": "否",
+                "action": "goto",
+                "target": 8
+            }
+        ]
+    },
+    {
+        "question": "如果给你布置了一个新应用的设想，你更愿意做哪一项",
+        "option": [{
+                "text": "界面美化和设计",
+                "action": "answer",
+                "target": "美工"
+            },
+            {
+                "text": "功能设计，交互设计",
+                "action": "goto",
+                "target": 6
+            }
+        ]
+    },
+    {
+        "question": "你是否参与策划过晚会、出游、十佳歌手等活动",
+        "option": [{
+                "text": "是",
+                "action": "goto",
+                "target": 7
+            },
+            {
+                "text": "否",
+                "action": "goto",
+                "target": 8
+            }
+        ]
+    },
+    {
+        "question": "你能默写出QQ或微信的主页吗",
+        "option": [{
+                "text": "是",
+                "action": "answer",
+                "target": "策划"
+            },
+            {
+                "text": "否",
+                "action": "goto",
+                "target": 8
+            }
+        ]
+    },
+    {
+        "question": "你是否喜欢写作",
+        "option": [{
+                "text": "是",
+                "action": "answer",
+                "target": "运营"
+            },
+            {
+                "text": "否",
+                "action": "goto",
+                "target": 9
+            }
+        ]
+    },
+    {
+        "question": "如果一个项目需要完成，你更愿意做下列哪一项",
+        "option": [{
+                "text": "功能设计、交互设计",
+                "action": "answer",
+                "target": "策划"
+            },
+            {
+                "text": "程序开发、算法设计",
+                "action": "answer",
+                "target": "软件"
+            },
+            {
+                "text": "UI设计、插画设计",
+                "action": "answer",
+                "target": "美工"
+            },
+            {
+                "text": "体验优化、程序部署",
+                "action": "answer",
+                "target": "运维"
+            },
+            {
+                "text": "宣传推广、奖励设计",
+                "action": "answer",
+                "target": "运营"
+            }
+        ]
+    }
+]
